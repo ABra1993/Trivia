@@ -83,6 +83,7 @@
         android:layout_height="wrap_content"
         android:text="Highscores"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/button_layout"
+        android:background="@drawable/button_border"
+        android:textColor="#ffffff"
         android:onClick="showHighscore"/>
 </LinearLayout>

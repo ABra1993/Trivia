@@ -13,7 +13,7 @@ import com.google.firebase.auth.FirebaseUser;
 import java.util.ArrayList;
 
 public class HighscoreActivity extends AppCompatActivity implements HighscoresHelper.Callback {
-    /** The following class displays the highscores. */
+    /** The following class displays the highscores activity. */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
