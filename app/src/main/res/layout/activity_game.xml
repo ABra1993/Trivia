@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00abff"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="@string/question" />
+
+    <Button
+        android:id="@+id/optionA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_layout"
+        android:gravity="center"
+        android:onClick="AnswerClicked"/>
+
+    <Button
+        android:id="@+id/optionB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_gravity="start"
+        android:background="@drawable/button_layout"
+        android:gravity="center"
+        android:onClick="AnswerClicked"/>
+
+    <Button
+        android:id="@+id/optionC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_layout"
+        android:gravity="center"
+        android:onClick="AnswerClicked"/>
+
+    <Button
+        android:id="@+id/optionD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_gravity="start"
+        android:background="@drawable/button_layout"
+        android:gravity="center"
+        android:onClick="AnswerClicked"/>
+
+    <TextView
+        android:id="@+id/questionCount"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
